@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Samples/WLT Samples/Advanced/QRSpacePin/Scenes/QRSpacePins.unity
+    guid: d23ad6dcc3b28ba4ca825182d105a297
+  - enabled: 1
+    path: Assets/Scenes/QRSpacePinsLocal.unity
+    guid: 80d561801460e554485a8a7137e7a813
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d2dba7f995f831f4eb70a7cdf5d682a7, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: acb93570f0834ce4aafa9e41ca7a65a9, type: 2}

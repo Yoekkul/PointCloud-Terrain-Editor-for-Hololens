@@ -1,0 +1,25 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+RWStructuredBuffer<float3> _Positions;
+
+uint _Width;
+uint _Height;
+
+
+float2 GetUV(uint3 id) {
+    return(id.xy + 0.5) - 1.0; //return (id.xy + 0.5) * _Step - 1.0;
+}
+
+void SetPosition(uint3 id, float3 position) {
+    /*
+    if (id.x < _Height && id.y < _Width) {
+        _Positions[id.x + id.y * _Width] = position;
+    }*/
+}
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID){//SV_.. clarifdies that id is the threadidentifier
+    float2 uv = GetUV(id);
+    SetPosition(id, 0.0);
+}

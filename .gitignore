@@ -25,6 +25,10 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+# PointCloud Data
+*.xyz
+*.xyzrgb
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
