@@ -83,7 +83,7 @@ namespace Pcx{
                 return null;
             }
         }
-        public float decimation = 0.1f; //(Decimate 99%) 0.01 -> 1.00 (Do not decimate)
+        public float decimation = 0.01f; //(Decimate 99%) 0.01 -> 1.00 (Do not decimate)
         Tuple<List<Vector3>, List<Color32>> LoadAndCenter(string path) {
             var stream = File.Open(path, FileMode.Open, FileAccess.Read, FileShare.Read);
             StreamReader reader = new StreamReader(stream);

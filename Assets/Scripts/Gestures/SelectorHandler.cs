@@ -5,6 +5,7 @@ using Microsoft.MixedReality.Toolkit.Input;
 using Microsoft.MixedReality.Toolkit;
 using System;
 using Microsoft.MixedReality.Toolkit.UI;
+using Pcx;
 
 public class SelectorHandler : MonoBehaviour, IMixedRealityInputHandler {
     public GameObject marker;
@@ -14,6 +15,8 @@ public class SelectorHandler : MonoBehaviour, IMixedRealityInputHandler {
     public float sigmaGaussian = 2f;
 
     public GameObject menuContent;
+
+    public PointCloudRenderer rnd;
 
     private float movementSpeed = 0.1f;
     private float deadzone = 0.05f;
@@ -42,7 +45,6 @@ public class SelectorHandler : MonoBehaviour, IMixedRealityInputHandler {
     public void UpdateSigma(SliderEventData sliderEvent) {
         radius = sliderEvent.NewValue * 2 + 0.01f;//scaling factor from radius 0.01-2.01
     }
-
 
     private void Update() {
         if(currentPointer != null && editPoints) {

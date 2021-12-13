@@ -15,11 +15,11 @@ D:/WLTExperiments
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54700
+64853
 Successfully changed project path to: D:/WLTExperiments
 D:/WLTExperiments
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 95.94 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 103.96 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,26 +35,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002180 seconds.
+Registered in 0.005906 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.90 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 98.00 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.348 seconds
+- Completed reload, in  2.534 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010256 seconds.
+Registered in 0.011212 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.47 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 93.11 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Restoring NuGet Packages
-[XR] [MROpenXR][Info   ][09:53:22.936278][tid:5664] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][09:53:22.936387][tid:5664] InputProvider_RegisterLifeCycleProvider
+[XR] [MROpenXR][Info   ][21:02:12.761379][tid:26f8] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][21:02:12.761497][tid:26f8] InputProvider_RegisterLifeCycleProvider
 Added DLL directory D:\WLTExperiments\Assets\Packages\Microsoft.VCRTForwarders.140.1.0.5\Unity\x64 to the user search path.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -79,453 +79,34 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [XR] Error loading subsystem: Display (1) (header mismatch?)
 Mono: successfully reloaded assembly
-- Completed reload, in  2.832 seconds
+- Completed reload, in  3.444 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3742 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.9 MB.
-System memory in use after: 170.7 MB.
-
-Unloading 620 unused Assets to reduce memory usage. Loaded Objects now: 4067.
-Total: 4.735400 ms (FindLiveObjects: 0.388000 ms CreateObjectMapping: 0.224400 ms MarkObjects: 3.493500 ms  DeleteObjects: 0.628000 ms)
-
-========================================================================
-Received Import Request.
-  path: Packages/jp.keijiro.pcx/Runtime/Shaders
-  artifactKey: Guid(b630145d59c3fd94192dee25504cefc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/jp.keijiro.pcx/Runtime/Shaders using Guid(b630145d59c3fd94192dee25504cefc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0189da172c56e47e234d1b14a103ff25') in 0.049879 seconds
-  Import took 0.057492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Packages/jp.keijiro.pcx/Runtime/Shaders/Point.shader
-  artifactKey: Guid(1baec256dca7c1642b87d05510e75a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/jp.keijiro.pcx/Runtime/Shaders/Point.shader using Guid(1baec256dca7c1642b87d05510e75a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38961bbc32a9e022e8b3070750346bc') in 0.044226 seconds
-  Import took 0.051034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Packages/jp.keijiro.pcx/Runtime/Shaders/Disk.shader
-  artifactKey: Guid(7ebf1f15e5b03014d92704caa6c97e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/jp.keijiro.pcx/Runtime/Shaders/Disk.shader using Guid(7ebf1f15e5b03014d92704caa6c97e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e002382d3cc33e2bab8db3dc5dc038') in 0.009325 seconds
-  Import took 0.015417 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010336 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.449 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.30 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.9 MB.
-System memory in use after: 170.7 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4075.
-Total: 3.836200 ms (FindLiveObjects: 0.392200 ms CreateObjectMapping: 0.170400 ms MarkObjects: 2.848500 ms  DeleteObjects: 0.423900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010434 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.12 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.936 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.48 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.1 MB.
-System memory in use after: 170.8 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4083.
-Total: 5.435000 ms (FindLiveObjects: 0.636500 ms CreateObjectMapping: 0.477200 ms MarkObjects: 3.889800 ms  DeleteObjects: 0.429700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011083 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.978 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.45 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.2 MB.
-System memory in use after: 171.0 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4091.
-Total: 5.116200 ms (FindLiveObjects: 0.539100 ms CreateObjectMapping: 0.462800 ms MarkObjects: 3.692100 ms  DeleteObjects: 0.420600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010150 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.42 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.989 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.30 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.3 MB.
-System memory in use after: 171.1 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4099.
-Total: 4.887500 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.160900 ms MarkObjects: 3.848500 ms  DeleteObjects: 0.454800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011613 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.89 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.032 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.43 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.5 MB.
-System memory in use after: 171.3 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4107.
-Total: 4.604300 ms (FindLiveObjects: 0.512600 ms CreateObjectMapping: 0.270300 ms MarkObjects: 3.415000 ms  DeleteObjects: 0.403400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013382 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.99 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.334 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.88 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.6 MB.
-System memory in use after: 171.4 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4115.
-Total: 6.872700 ms (FindLiveObjects: 0.564500 ms CreateObjectMapping: 0.311600 ms MarkObjects: 5.580200 ms  DeleteObjects: 0.414800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011873 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.93 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.899 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.37 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.6 MB.
-System memory in use after: 171.4 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4123.
-Total: 4.024800 ms (FindLiveObjects: 0.477800 ms CreateObjectMapping: 0.198800 ms MarkObjects: 2.954400 ms  DeleteObjects: 0.392500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015697 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.387 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.13 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.5 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4131.
-Total: 4.643600 ms (FindLiveObjects: 0.391800 ms CreateObjectMapping: 0.182000 ms MarkObjects: 3.494100 ms  DeleteObjects: 0.574500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012190 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.382 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.88 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.9 MB.
-System memory in use after: 171.6 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4139.
-Total: 6.259200 ms (FindLiveObjects: 0.393200 ms CreateObjectMapping: 0.243300 ms MarkObjects: 5.119400 ms  DeleteObjects: 0.500900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015378 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.356 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.49 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.0 MB.
-System memory in use after: 171.8 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4147.
-Total: 4.930000 ms (FindLiveObjects: 0.703900 ms CreateObjectMapping: 0.326600 ms MarkObjects: 3.508800 ms  DeleteObjects: 0.387800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013005 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.348 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 3.22 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.1 MB.
-System memory in use after: 171.9 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4155.
-Total: 5.317200 ms (FindLiveObjects: 0.843600 ms CreateObjectMapping: 0.275400 ms MarkObjects: 3.489500 ms  DeleteObjects: 0.706700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013172 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.60 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  4.399 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.60 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.0 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4163.
-Total: 4.474600 ms (FindLiveObjects: 0.464400 ms CreateObjectMapping: 0.214300 ms MarkObjects: 3.271100 ms  DeleteObjects: 0.523600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011356 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.117 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 2.04 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.3 MB.
-System memory in use after: 172.1 MB.
+Unloading 3741 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.5 MB.
+System memory in use after: 151.2 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4171.
-Total: 4.175900 ms (FindLiveObjects: 0.472900 ms CreateObjectMapping: 0.255800 ms MarkObjects: 2.984600 ms  DeleteObjects: 0.461000 ms)
+Unloading 622 unused Assets to reduce memory usage. Loaded Objects now: 4045.
+Total: 6.467600 ms (FindLiveObjects: 0.409200 ms CreateObjectMapping: 0.250400 ms MarkObjects: 4.950400 ms  DeleteObjects: 0.856000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/SimpleImporter.cs
+  artifactKey: Guid(fc17d89751d445242a399dc3d551e7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleImporter.cs using Guid(fc17d89751d445242a399dc3d551e7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dbae365fe294835a7ebb9685032ac5') in 0.053361 seconds
+  Import took 0.063972 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010921 seconds.
+Registered in 0.011575 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 3.18 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -538,506 +119,33 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.694 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.34 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.4 MB.
-System memory in use after: 172.2 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4179.
-Total: 4.425400 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.275200 ms MarkObjects: 3.269600 ms  DeleteObjects: 0.448500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012135 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.081 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.32 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.5 MB.
-System memory in use after: 172.3 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4187.
-Total: 6.048600 ms (FindLiveObjects: 0.788700 ms CreateObjectMapping: 0.527900 ms MarkObjects: 4.220000 ms  DeleteObjects: 0.510500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011881 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.670 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.31 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.7 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4195.
-Total: 3.819300 ms (FindLiveObjects: 0.416000 ms CreateObjectMapping: 0.209300 ms MarkObjects: 2.810100 ms  DeleteObjects: 0.382700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011025 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.124 seconds
+- Completed reload, in  5.887 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.38 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.8 MB.
-System memory in use after: 172.5 MB.
+System memory in use before: 323.8 MB.
+System memory in use after: 323.6 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4203.
-Total: 5.898400 ms (FindLiveObjects: 0.572600 ms CreateObjectMapping: 0.328700 ms MarkObjects: 4.158400 ms  DeleteObjects: 0.836900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010752 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.33 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.776 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.52 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 172.7 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4211.
-Total: 4.555500 ms (FindLiveObjects: 0.438600 ms CreateObjectMapping: 0.202900 ms MarkObjects: 3.011700 ms  DeleteObjects: 0.901200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013411 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.72 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.150 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.45 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.0 MB.
-System memory in use after: 172.8 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4219.
-Total: 5.244000 ms (FindLiveObjects: 0.537000 ms CreateObjectMapping: 0.376400 ms MarkObjects: 3.488600 ms  DeleteObjects: 0.840600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011052 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.773 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.68 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.1 MB.
-System memory in use after: 172.9 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4227.
-Total: 3.999900 ms (FindLiveObjects: 0.436100 ms CreateObjectMapping: 0.204000 ms MarkObjects: 2.963200 ms  DeleteObjects: 0.395600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011521 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.161 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.85 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.2 MB.
-System memory in use after: 173.0 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4235.
-Total: 5.156900 ms (FindLiveObjects: 0.631300 ms CreateObjectMapping: 0.367600 ms MarkObjects: 3.680900 ms  DeleteObjects: 0.456700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011463 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.751 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.48 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.3 MB.
-System memory in use after: 173.1 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4243.
-Total: 4.651200 ms (FindLiveObjects: 0.575800 ms CreateObjectMapping: 0.274800 ms MarkObjects: 3.256700 ms  DeleteObjects: 0.542900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010431 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.183 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.77 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.5 MB.
-System memory in use after: 173.3 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4251.
-Total: 4.198700 ms (FindLiveObjects: 0.513800 ms CreateObjectMapping: 0.274400 ms MarkObjects: 3.008500 ms  DeleteObjects: 0.400800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010520 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.05 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.758 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.97 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.6 MB.
-System memory in use after: 173.4 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4259.
-Total: 4.583400 ms (FindLiveObjects: 0.631800 ms CreateObjectMapping: 0.261300 ms MarkObjects: 3.286900 ms  DeleteObjects: 0.402000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011656 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.162 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.66 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.7 MB.
-System memory in use after: 173.5 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4267.
-Total: 4.458000 ms (FindLiveObjects: 0.455100 ms CreateObjectMapping: 0.215400 ms MarkObjects: 3.412500 ms  DeleteObjects: 0.373500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010836 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.84 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.802 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.53 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.8 MB.
-System memory in use after: 173.6 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4275.
-Total: 4.336200 ms (FindLiveObjects: 0.345600 ms CreateObjectMapping: 0.187700 ms MarkObjects: 3.151500 ms  DeleteObjects: 0.649600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010756 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.798 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.36 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.9 MB.
-System memory in use after: 173.7 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4283.
-Total: 4.356200 ms (FindLiveObjects: 0.609300 ms CreateObjectMapping: 0.411400 ms MarkObjects: 2.941400 ms  DeleteObjects: 0.392900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012767 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.216 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.40 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.1 MB.
-System memory in use after: 173.8 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4291.
-Total: 4.726700 ms (FindLiveObjects: 0.735200 ms CreateObjectMapping: 0.194300 ms MarkObjects: 3.218900 ms  DeleteObjects: 0.576200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010741 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.815 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.61 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.2 MB.
-System memory in use after: 174.0 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4299.
-Total: 4.156000 ms (FindLiveObjects: 0.560400 ms CreateObjectMapping: 0.322800 ms MarkObjects: 2.886700 ms  DeleteObjects: 0.385200 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4053.
+Total: 4.966700 ms (FindLiveObjects: 0.450600 ms CreateObjectMapping: 0.205200 ms MarkObjects: 3.908800 ms  DeleteObjects: 0.400500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21103.069652 seconds.
-  path: Assets/Terrain/PC_Original.prefab
-  artifactKey: Guid(c8baac067c3b634439eec98a94459223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/PC_Original.prefab using Guid(c8baac067c3b634439eec98a94459223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a679854cee670406e3082c144aa32470') in 0.087200 seconds
-  Import took 0.106082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.410429 seconds.
-  path: Assets/Terrain/HandMenu.prefab
-  artifactKey: Guid(fbc3d3a8c2a1eca409a0ded445ca282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/HandMenu.prefab using Guid(fbc3d3a8c2a1eca409a0ded445ca282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeb834b18bff80f47b36b89af66b74c') in 0.709325 seconds
-  Import took 0.747343 seconds .
+  Time since last request: 52.969416 seconds.
+  path: Assets/Terrain/DenseCloudIrchelpark.xyzrgb
+  artifactKey: Guid(e6eb18e4575662a4592fba03989987ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/DenseCloudIrchelpark.xyzrgb using Guid(e6eb18e4575662a4592fba03989987ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ab969483a518e65207405ae852ad51') in 0.078336 seconds
+  Import took 0.141328 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012004 seconds.
+Registered in 0.012926 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.64 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1050,332 +158,64 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.372 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.57 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.7 MB.
-System memory in use after: 174.5 MB.
-
-Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4307.
-Total: 6.356300 ms (FindLiveObjects: 1.210700 ms CreateObjectMapping: 0.437600 ms MarkObjects: 4.238300 ms  DeleteObjects: 0.464700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012145 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.760 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.28 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.8 MB.
-System memory in use after: 174.6 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4315.
-Total: 4.419500 ms (FindLiveObjects: 0.437100 ms CreateObjectMapping: 0.341300 ms MarkObjects: 3.181700 ms  DeleteObjects: 0.457400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013401 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.05 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.755 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.37 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.9 MB.
-System memory in use after: 174.7 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4323.
-Total: 4.857200 ms (FindLiveObjects: 0.448100 ms CreateObjectMapping: 0.294700 ms MarkObjects: 3.632300 ms  DeleteObjects: 0.480300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011309 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.12 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.031 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.03 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.0 MB.
-System memory in use after: 174.8 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4331.
-Total: 5.576800 ms (FindLiveObjects: 0.580000 ms CreateObjectMapping: 0.362300 ms MarkObjects: 4.079600 ms  DeleteObjects: 0.553300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013378 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.365 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.95 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.1 MB.
-System memory in use after: 174.9 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4339.
-Total: 5.842900 ms (FindLiveObjects: 0.654100 ms CreateObjectMapping: 0.408400 ms MarkObjects: 4.070900 ms  DeleteObjects: 0.707800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011186 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.47 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.897 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.60 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.3 MB.
-System memory in use after: 175.1 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4347.
-Total: 4.585100 ms (FindLiveObjects: 0.507900 ms CreateObjectMapping: 0.200900 ms MarkObjects: 3.513400 ms  DeleteObjects: 0.361600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011886 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.380 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.58 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.4 MB.
-System memory in use after: 175.1 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4355.
-Total: 6.066300 ms (FindLiveObjects: 0.422100 ms CreateObjectMapping: 0.268800 ms MarkObjects: 4.643500 ms  DeleteObjects: 0.729200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011593 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.849 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.46 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.5 MB.
-System memory in use after: 175.3 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4363.
-Total: 4.069300 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.180500 ms MarkObjects: 3.128600 ms  DeleteObjects: 0.360200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011330 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.72 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.372 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.61 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.6 MB.
-System memory in use after: 175.4 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4371.
-Total: 4.544800 ms (FindLiveObjects: 0.491300 ms CreateObjectMapping: 0.390900 ms MarkObjects: 3.123400 ms  DeleteObjects: 0.537700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011547 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.922 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.57 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.7 MB.
-System memory in use after: 175.5 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4379.
-Total: 4.808500 ms (FindLiveObjects: 0.533000 ms CreateObjectMapping: 0.264200 ms MarkObjects: 3.577700 ms  DeleteObjects: 0.431700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013682 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.89 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.374 seconds
+- Completed reload, in  3.179 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.64 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.8 MB.
-System memory in use after: 175.6 MB.
+System memory in use before: 151.7 MB.
+System memory in use after: 151.5 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4387.
-Total: 5.782400 ms (FindLiveObjects: 0.525000 ms CreateObjectMapping: 0.293300 ms MarkObjects: 4.476900 ms  DeleteObjects: 0.485200 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4061.
+Total: 4.515100 ms (FindLiveObjects: 0.406900 ms CreateObjectMapping: 0.290700 ms MarkObjects: 3.402400 ms  DeleteObjects: 0.413000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.50 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.0 MB.
+System memory in use after: 72.2 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 4061.
+Total: 6.120200 ms (FindLiveObjects: 0.723600 ms CreateObjectMapping: 0.274600 ms MarkObjects: 4.977700 ms  DeleteObjects: 0.141700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011334 seconds.
+Registered in 0.138189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.589 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.9 MB.
+System memory in use after: 151.7 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4070.
+Total: 4.633700 ms (FindLiveObjects: 0.505400 ms CreateObjectMapping: 0.249000 ms MarkObjects: 3.471200 ms  DeleteObjects: 0.406700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010727 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.54 ms, found 28 plugins.
@@ -1391,25 +231,25 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.950 seconds
+- Completed reload, in  2.717 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.51 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.9 MB.
-System memory in use after: 175.7 MB.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.0 MB.
+System memory in use after: 151.8 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4395.
-Total: 4.900400 ms (FindLiveObjects: 0.522500 ms CreateObjectMapping: 0.330500 ms MarkObjects: 3.646400 ms  DeleteObjects: 0.399600 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4078.
+Total: 4.645500 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.185800 ms MarkObjects: 3.693500 ms  DeleteObjects: 0.383900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012865 seconds.
+Registered in 0.010945 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 2.58 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1422,22 +262,611 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.451 seconds
+- Completed reload, in  3.395 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.10 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.0 MB.
-System memory in use after: 175.8 MB.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.2 MB.
+System memory in use after: 151.9 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4403.
-Total: 6.304500 ms (FindLiveObjects: 0.736400 ms CreateObjectMapping: 0.472100 ms MarkObjects: 4.609400 ms  DeleteObjects: 0.484900 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4086.
+Total: 4.610500 ms (FindLiveObjects: 0.511200 ms CreateObjectMapping: 0.420900 ms MarkObjects: 3.118800 ms  DeleteObjects: 0.555400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014860 seconds.
+Registered in 0.011086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.258 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.48 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 152.0 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4094.
+Total: 6.362800 ms (FindLiveObjects: 0.739600 ms CreateObjectMapping: 0.509700 ms MarkObjects: 4.571700 ms  DeleteObjects: 0.539800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.587 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.4 MB.
+System memory in use after: 152.2 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4102.
+Total: 4.119600 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.203400 ms MarkObjects: 3.078000 ms  DeleteObjects: 0.498300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.255 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.5 MB.
+System memory in use after: 152.3 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4110.
+Total: 4.664800 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.396900 ms MarkObjects: 3.436900 ms  DeleteObjects: 0.424100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.657 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.6 MB.
+System memory in use after: 152.4 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4118.
+Total: 3.900500 ms (FindLiveObjects: 0.451000 ms CreateObjectMapping: 0.222700 ms MarkObjects: 2.835600 ms  DeleteObjects: 0.389800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.278 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.7 MB.
+System memory in use after: 152.5 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4126.
+Total: 5.494600 ms (FindLiveObjects: 0.513100 ms CreateObjectMapping: 0.295100 ms MarkObjects: 4.036700 ms  DeleteObjects: 0.648000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.655 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.9 MB.
+System memory in use after: 152.7 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4134.
+Total: 4.863200 ms (FindLiveObjects: 0.675900 ms CreateObjectMapping: 0.239800 ms MarkObjects: 3.522400 ms  DeleteObjects: 0.423600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.795 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.0 MB.
+System memory in use after: 152.8 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4142.
+Total: 3.847200 ms (FindLiveObjects: 0.427900 ms CreateObjectMapping: 0.170200 ms MarkObjects: 2.870700 ms  DeleteObjects: 0.377100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.626 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.1 MB.
+System memory in use after: 152.9 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4150.
+Total: 4.115000 ms (FindLiveObjects: 0.387300 ms CreateObjectMapping: 0.206700 ms MarkObjects: 3.123300 ms  DeleteObjects: 0.396300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.857 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.2 MB.
+System memory in use after: 153.0 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4158.
+Total: 3.609200 ms (FindLiveObjects: 0.392400 ms CreateObjectMapping: 0.179600 ms MarkObjects: 2.676700 ms  DeleteObjects: 0.359600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.709 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.3 MB.
+System memory in use after: 153.1 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4166.
+Total: 3.794800 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.215600 ms MarkObjects: 2.824600 ms  DeleteObjects: 0.402800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.736 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.60 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.2 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4174.
+Total: 4.022000 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.184900 ms MarkObjects: 3.081700 ms  DeleteObjects: 0.385100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.707 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.5 MB.
+System memory in use after: 153.3 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4182.
+Total: 3.937700 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.194100 ms MarkObjects: 2.962800 ms  DeleteObjects: 0.412300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011136 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.188 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.7 MB.
+System memory in use after: 153.4 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4190.
+Total: 5.181800 ms (FindLiveObjects: 0.594800 ms CreateObjectMapping: 0.263300 ms MarkObjects: 3.935800 ms  DeleteObjects: 0.372400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.148 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.8 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4198.
+Total: 4.961500 ms (FindLiveObjects: 0.443900 ms CreateObjectMapping: 0.215600 ms MarkObjects: 3.549100 ms  DeleteObjects: 0.751300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.680 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.58 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.9 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4206.
+Total: 4.500100 ms (FindLiveObjects: 0.450300 ms CreateObjectMapping: 0.316800 ms MarkObjects: 3.278600 ms  DeleteObjects: 0.452800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025807 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.750 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.0 MB.
+System memory in use after: 153.8 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4214.
+Total: 4.096500 ms (FindLiveObjects: 0.378000 ms CreateObjectMapping: 0.173000 ms MarkObjects: 3.100100 ms  DeleteObjects: 0.444300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.727 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.1 MB.
+System memory in use after: 153.9 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4222.
+Total: 4.243000 ms (FindLiveObjects: 0.398500 ms CreateObjectMapping: 0.172200 ms MarkObjects: 3.261400 ms  DeleteObjects: 0.409600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011405 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.207 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.86 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.2 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4230.
+Total: 4.821600 ms (FindLiveObjects: 0.445400 ms CreateObjectMapping: 0.340100 ms MarkObjects: 3.592400 ms  DeleteObjects: 0.441800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.803 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.3 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4238.
+Total: 4.461800 ms (FindLiveObjects: 0.387500 ms CreateObjectMapping: 0.176800 ms MarkObjects: 3.482700 ms  DeleteObjects: 0.413500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012580 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 2.15 ms, found 28 plugins.
@@ -1453,25 +882,25 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.402 seconds
+- Completed reload, in  3.208 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.86 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.77 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.2 MB.
-System memory in use after: 175.9 MB.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 154.2 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4411.
-Total: 5.897400 ms (FindLiveObjects: 0.813200 ms CreateObjectMapping: 0.506600 ms MarkObjects: 4.060200 ms  DeleteObjects: 0.515900 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4246.
+Total: 4.341400 ms (FindLiveObjects: 0.517600 ms CreateObjectMapping: 0.366000 ms MarkObjects: 3.030900 ms  DeleteObjects: 0.425100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012419 seconds.
+Registered in 0.010901 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.86 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1484,25 +913,25 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.112 seconds
+- Completed reload, in  3.248 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.50 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.3 MB.
-System memory in use after: 176.1 MB.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.4 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4419.
-Total: 4.328000 ms (FindLiveObjects: 0.392000 ms CreateObjectMapping: 0.218400 ms MarkObjects: 3.342200 ms  DeleteObjects: 0.374200 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4254.
+Total: 4.590500 ms (FindLiveObjects: 0.437400 ms CreateObjectMapping: 0.356900 ms MarkObjects: 3.404100 ms  DeleteObjects: 0.390100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014717 seconds.
+Registered in 0.010596 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.61 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1515,57 +944,26 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.416 seconds
+- Completed reload, in  2.837 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.66 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.4 MB.
-System memory in use after: 176.2 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4427.
-Total: 5.494500 ms (FindLiveObjects: 0.458900 ms CreateObjectMapping: 0.278600 ms MarkObjects: 3.805800 ms  DeleteObjects: 0.948900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011643 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.48 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.495 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.47 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.5 MB.
-System memory in use after: 176.3 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4435.
-Total: 4.820800 ms (FindLiveObjects: 0.442500 ms CreateObjectMapping: 0.263900 ms MarkObjects: 3.635400 ms  DeleteObjects: 0.477700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013113 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.38 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4262.
+Total: 20.022100 ms (FindLiveObjects: 12.541100 ms CreateObjectMapping: 0.385400 ms MarkObjects: 6.547700 ms  DeleteObjects: 0.545400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012515 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -1577,87 +975,191 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.953 seconds
+- Completed reload, in  3.316 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.80 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 154.6 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4270.
+Total: 5.749300 ms (FindLiveObjects: 0.536800 ms CreateObjectMapping: 0.460700 ms MarkObjects: 4.328600 ms  DeleteObjects: 0.421800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010756 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.760 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.9 MB.
+System memory in use after: 154.7 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4278.
+Total: 4.875100 ms (FindLiveObjects: 0.400700 ms CreateObjectMapping: 0.196800 ms MarkObjects: 3.760400 ms  DeleteObjects: 0.516200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.310 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.82 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.1 MB.
+System memory in use after: 154.8 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4286.
+Total: 6.201400 ms (FindLiveObjects: 0.642500 ms CreateObjectMapping: 0.505400 ms MarkObjects: 4.547000 ms  DeleteObjects: 0.505000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.07 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.5 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 4286.
+Total: 3.588200 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 0.161800 ms MarkObjects: 2.942700 ms  DeleteObjects: 0.123000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011075 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.895 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.2 MB.
+System memory in use after: 155.0 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4294.
+Total: 3.951600 ms (FindLiveObjects: 0.372600 ms CreateObjectMapping: 0.196700 ms MarkObjects: 2.831000 ms  DeleteObjects: 0.550200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.99 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.974 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.35 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.6 MB.
-System memory in use after: 176.4 MB.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.3 MB.
+System memory in use after: 155.1 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4443.
-Total: 4.283500 ms (FindLiveObjects: 0.450500 ms CreateObjectMapping: 0.232600 ms MarkObjects: 3.195600 ms  DeleteObjects: 0.403700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011253 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.65 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.986 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.61 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.7 MB.
-System memory in use after: 176.5 MB.
-
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4451.
-Total: 4.473100 ms (FindLiveObjects: 0.485800 ms CreateObjectMapping: 0.301600 ms MarkObjects: 3.299400 ms  DeleteObjects: 0.384700 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4302.
+Total: 4.167200 ms (FindLiveObjects: 0.420500 ms CreateObjectMapping: 0.253100 ms MarkObjects: 3.062000 ms  DeleteObjects: 0.430400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013866 seconds.
+Registered in 0.012406 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 28 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.883 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.37 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.8 MB.
-System memory in use after: 176.6 MB.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4459.
-Total: 4.959000 ms (FindLiveObjects: 0.744300 ms CreateObjectMapping: 0.252300 ms MarkObjects: 3.494700 ms  DeleteObjects: 0.463500 ms)
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.057 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.7 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4310.
+Total: 3.936200 ms (FindLiveObjects: 0.398800 ms CreateObjectMapping: 0.220600 ms MarkObjects: 2.891100 ms  DeleteObjects: 0.423900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011659 seconds.
+Registered in 0.012807 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1670,25 +1172,25 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.962 seconds
+- Completed reload, in  3.481 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.50 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.0 MB.
-System memory in use after: 176.8 MB.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.8 MB.
+System memory in use after: 155.6 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4467.
-Total: 4.446600 ms (FindLiveObjects: 0.372700 ms CreateObjectMapping: 0.436300 ms MarkObjects: 3.249200 ms  DeleteObjects: 0.387200 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4318.
+Total: 3.674400 ms (FindLiveObjects: 0.447600 ms CreateObjectMapping: 0.191400 ms MarkObjects: 2.636500 ms  DeleteObjects: 0.397100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010316 seconds.
+Registered in 0.012156 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.44 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1701,25 +1203,25 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.937 seconds
+- Completed reload, in  3.176 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.47 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 2.37 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.1 MB.
-System memory in use after: 176.9 MB.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.9 MB.
+System memory in use after: 155.7 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4475.
-Total: 4.272100 ms (FindLiveObjects: 0.391300 ms CreateObjectMapping: 0.249100 ms MarkObjects: 3.256700 ms  DeleteObjects: 0.373600 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4326.
+Total: 4.441700 ms (FindLiveObjects: 0.482100 ms CreateObjectMapping: 0.258000 ms MarkObjects: 3.228300 ms  DeleteObjects: 0.471700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011885 seconds.
+Registered in 0.010275 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.17 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.60 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1732,15 +1234,202 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Lib
 (Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.512 seconds
+- Completed reload, in  3.026 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.37 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 1.44 ms, found 28 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.2 MB.
-System memory in use after: 177.0 MB.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 155.8 MB.
 
-Unloading 437 unused Assets to reduce memory usage. Loaded Objects now: 4483.
-Total: 4.463500 ms (FindLiveObjects: 0.454400 ms CreateObjectMapping: 0.194400 ms MarkObjects: 3.193000 ms  DeleteObjects: 0.620100 ms)
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4334.
+Total: 5.728200 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.193700 ms MarkObjects: 4.441800 ms  DeleteObjects: 0.690500 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.352 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.05 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 155.9 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4342.
+Total: 5.275400 ms (FindLiveObjects: 0.857800 ms CreateObjectMapping: 0.458300 ms MarkObjects: 3.544200 ms  DeleteObjects: 0.413800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.370 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.2 MB.
+System memory in use after: 156.0 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4350.
+Total: 5.609300 ms (FindLiveObjects: 0.571000 ms CreateObjectMapping: 0.499700 ms MarkObjects: 4.044900 ms  DeleteObjects: 0.492200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.412 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.68 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.1 MB.
+System memory in use after: 156.9 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4358.
+Total: 5.378500 ms (FindLiveObjects: 0.477600 ms CreateObjectMapping: 0.435400 ms MarkObjects: 3.901800 ms  DeleteObjects: 0.562200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.410 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.5 MB.
+System memory in use after: 156.3 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4366.
+Total: 4.708900 ms (FindLiveObjects: 0.617900 ms CreateObjectMapping: 0.351700 ms MarkObjects: 3.361000 ms  DeleteObjects: 0.376900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.42 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.422 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.6 MB.
+System memory in use after: 156.4 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4374.
+Total: 5.576800 ms (FindLiveObjects: 0.656600 ms CreateObjectMapping: 0.451700 ms MarkObjects: 3.933200 ms  DeleteObjects: 0.533100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@460270660430-1634485709965/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.024 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.30 ms, found 28 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.7 MB.
+System memory in use after: 156.5 MB.
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 4382.
+Total: 4.127500 ms (FindLiveObjects: 0.444600 ms CreateObjectMapping: 0.170900 ms MarkObjects: 3.121100 ms  DeleteObjects: 0.389600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

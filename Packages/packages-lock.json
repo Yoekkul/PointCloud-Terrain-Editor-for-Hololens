@@ -224,11 +224,10 @@
       "url": "https://packages.unity.com"
     },
     "jp.keijiro.pcx": {
-      "version": "1.0.1",
+      "version": "file:jp.keijiro.pcx@1.0.1",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://registry.npmjs.com"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
