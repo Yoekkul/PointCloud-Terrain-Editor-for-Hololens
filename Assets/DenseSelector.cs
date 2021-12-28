@@ -38,6 +38,7 @@ public class DenseSelector : MonoBehaviour, IMixedRealityInputHandler {
     }
 
     void Update() {
+        /*  //Example on how to edit a part of the PC
         ComputeBuffer dab = renderer.sourceData.computeBuffer;
         int count = renderer.sourceData.pointCount;
         Point[] pts = new Point[count];
@@ -48,7 +49,7 @@ public class DenseSelector : MonoBehaviour, IMixedRealityInputHandler {
             pts[i].position += Vector3.up * 0.1f;
         }
         dab.SetData(pts);
-
+        */
 
         /*
         List <Vector3> p = new List<Vector3>();
@@ -69,15 +70,24 @@ public class DenseSelector : MonoBehaviour, IMixedRealityInputHandler {
         if (currentPointer != null && editPoints) {
             float amount_moved = (currentPointer.Pointers[0].Position - initialPosition).y;
             amount_moved *= movementSpeed;
+            float angle = 90-((sigmaGaussian - 0.01f) / 2 *90+0.01f);
+            float smallRadius = Mathf.Abs(deltayDuringEdit * Mathf.Tan(Mathf.Deg2Rad*angle));
 
             foreach (GameObject node in currentSelection) {
                 Vector3 nodePos = node.transform.position;
-                float distance_to_orig_position = Mathf.Sqrt(Mathf.Pow((initialPosition.x - nodePos.x), 2) + Mathf.Pow((initialPosition.z - nodePos.z), 2));
                 float deltaY;
+                float distance_to_orig_position = Mathf.Sqrt(Mathf.Pow((initialPosition.x - nodePos.x), 2) + Mathf.Pow((initialPosition.z - nodePos.z), 2));
                 if (editorState == EditorState.Constant) {
                     deltaY = amount_moved;
                 } else if (editorState == EditorState.Linear) {
-                    deltaY = amount_moved * (radius - distance_to_orig_position) / radius;
+                    distance_to_orig_position = Mathf.Sqrt(Mathf.Pow((editAreaCenter.x - nodePos.x), 2) + Mathf.Pow((editAreaCenter.z - nodePos.z), 2));
+                    //deltaY = amount_moved * (radius - distance_to_orig_position) / radius;
+                    //if (distance_to_orig_position < smallRadius) {
+                    if (distance_to_orig_position < smallRadius) { 
+                        deltaY = amount_moved * (smallRadius - distance_to_orig_position) / smallRadius;
+                    } else {
+                        deltaY = 0;
+                    }
                 } else {
                     deltaY = amount_moved * Mathf.Exp(-Mathf.Pow(distance_to_orig_position, 2) / sigmaGaussian);
                 }
@@ -85,8 +95,10 @@ public class DenseSelector : MonoBehaviour, IMixedRealityInputHandler {
                 node.transform.position += new Vector3(0, deltaY, 0);
 
             }
+            deltayDuringEdit += amount_moved;
         }
     }
+    float deltayDuringEdit = 0;
 
     #region Input handling
 
@@ -99,7 +111,7 @@ public class DenseSelector : MonoBehaviour, IMixedRealityInputHandler {
 
     public void OnInputDown(InputEventData eventData) {
         if (eventData.MixedRealityInputAction.Description == "Select" && !menuContent.activeSelf) {
-            Debug.Log("Select");
+            //Debug.Log("Select");
             initialPosition = eventData.InputSource.Pointers[0].Position; // The initial position is reset such that on retry we center dead-zone again
             editPoints = true;
             if (currentPointer == null) {
@@ -127,11 +139,10 @@ public class DenseSelector : MonoBehaviour, IMixedRealityInputHandler {
     private void OnDisable() {
         CoreServices.InputSystem?.UnregisterHandler<IMixedRealityInputHandler>(this);
     }
-
+    private Vector3 editAreaCenter;
 
     private List<GameObject> createPointsWithinRadius(Vector3 initialPosition,float radius) {
-
-
+        editAreaCenter = initialPosition;
         getPointsInEditArea(initialPosition, radius);
         return null;
     }
@@ -154,6 +165,7 @@ public class DenseSelector : MonoBehaviour, IMixedRealityInputHandler {
     }
 
     public void ClearPoints() {
+        Debug.Log("Clearing points " + currentSelection.Count);
         editPoints = false;
         foreach (GameObject go in currentSelection) {
             Destroy(go);
@@ -189,7 +201,7 @@ public class DenseSelector : MonoBehaviour, IMixedRealityInputHandler {
         for (int i = 0; i < count; i++) {
             if (Mathf.Abs(center.x - pts[i].position.x) + Mathf.Abs(center.z - pts[i].position.z) < radius) {
                 editedIndexes.Add(i);
-                currentSelection.Add(GameObject.Instantiate(EditMarker, pts[i].position + Vector3.up, Quaternion.identity, transform));
+                currentSelection.Add(GameObject.Instantiate(EditMarker, pts[i].position, Quaternion.identity, transform));
             }
         }
 

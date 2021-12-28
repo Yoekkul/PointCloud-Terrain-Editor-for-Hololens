@@ -51,7 +51,7 @@ public class SelectorHandler : MonoBehaviour, IMixedRealityInputHandler {
             float amount_moved = (currentPointer.Pointers[0].Position - initialPosition).y;
             amount_moved *= movementSpeed;
 
-            foreach(GameObject node in currentSelection) {
+            foreach (GameObject node in currentSelection) {
                 Vector3 nodePos = node.transform.position;
                 float distance_to_orig_position = Mathf.Sqrt(Mathf.Pow((initialPosition.x - nodePos.x), 2) + Mathf.Pow((initialPosition.z - nodePos.z), 2));
                 float deltaY;
@@ -59,6 +59,11 @@ public class SelectorHandler : MonoBehaviour, IMixedRealityInputHandler {
                     deltaY = amount_moved;
                 }else if(editorState == EditorState.Linear) {
                     deltaY = amount_moved*(radius- distance_to_orig_position)/radius;
+                    /*if (distance_to_orig_position < smallRadius) {
+                        deltaY = amount_moved * (smallRadius - distance_to_orig_position) / smallRadius;
+                    } else {
+                        deltaY = 0;
+                    }*/
                 } else {
                     deltaY = amount_moved * Mathf.Exp(-Mathf.Pow(distance_to_orig_position, 2) / sigmaGaussian);
                 }
@@ -71,7 +76,7 @@ public class SelectorHandler : MonoBehaviour, IMixedRealityInputHandler {
 
     public void OnInputDown(InputEventData eventData) {
         if (eventData.MixedRealityInputAction.Description == "Select" && !menuContent.activeSelf) {
-            Debug.Log("Select");
+            //Debug.Log("Select");
             initialPosition = eventData.InputSource.Pointers[0].Position; // The initial position is reset such that on retry we center dead-zone again
             editPoints = true;
             if(currentPointer == null) {
